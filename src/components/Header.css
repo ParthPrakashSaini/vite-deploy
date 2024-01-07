@@ -1,0 +1,14 @@
+.nav{
+  /* height: 10vh; */
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  background-color: #f5ba13;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.nav h1{
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}

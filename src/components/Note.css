@@ -1,0 +1,20 @@
+.note {
+  width: 15vw;
+  margin: 16px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.note h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1vw;
+  margin-bottom: 5px;
+}
+
+.note p {
+  margin-bottom: 10px;
+  font-size: 1.1vw;
+  font-family: "Montserrat", sans-serif;
+}
