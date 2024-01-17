@@ -6,5 +6,6 @@
 }
 
 body {
-  background-color: #eee;
+  background-color: whitesmoke;
+  background-image: url("./Assets/cubes.png");
 }

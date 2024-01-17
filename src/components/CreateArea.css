@@ -1,0 +1,50 @@
+.createArea {
+  /* height: 50vh; */
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aquamarine; */
+}
+
+form.create-note {
+  position: relative;
+  width: 35vw;
+  padding: 1vw;
+  margin-top: 2vw;
+  border-radius: 10px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 4px;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -15px;
+  border: none;
+  border-radius: 50%;
+  padding: 6px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  color: white;
+  background-color: #f5ba13;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
