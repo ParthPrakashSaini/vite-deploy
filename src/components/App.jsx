@@ -4,6 +4,7 @@ import Note from "./Note";
 import Footer from "./Footer";
 import notes from "../notes";
 import CreateArea from "./CreateArea";
+import "./App.css";
 
 function App() {
   const [notes, setNotes] = useState([]);
@@ -26,17 +27,19 @@ function App() {
     <>
       <Header />
       <CreateArea onAdd={addNote} />
-      {notes.map((noteItem, index) => {
-        return (
-          <Note
-            key={index}
-            id={index}
-            title={noteItem.title}
-            content={noteItem.content}
-            onDelete={deleteNote}
-          />
-        );
-      })}
+      <div className="noteArea">
+        {notes.map((noteItem, index) => {
+          return (
+            <Note
+              key={index}
+              id={index}
+              title={noteItem.title}
+              content={noteItem.content}
+              onDelete={deleteNote}
+            />
+          );
+        })}
+      </div>
       <Footer />
     </>
   );
